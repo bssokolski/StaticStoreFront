@@ -1,0 +1,112 @@
+body {
+    font-size: 67.5%;
+    font-family: Tahoma, Geneva, sans-serif;
+    background-color:lightgrey;
+    padding: 0;
+    margin: 0;
+    }
+
+    h1 {
+        color: navy;
+        font-family:Arial, Helvetica, sans-serif,sans-serif;
+        font-size: 2.0em;
+        margin: 0.5em 0 0.5em 0;
+        padding: 0;
+   }
+   h2 {
+        color: aqua;
+        font-family: Arial, Helvetica, sans-serif,sans-serif;
+        font-size: 1.7em;
+        padding: 0px;
+        margin: 0.5em 0 0.35em 0;
+   }
+
+div.clear { 
+    clear:both;
+    font-size: 1%;
+    text-align: center
+}
+
+header {
+    background: white url(https://cdn.pixabay.com/photo/2015/09/02/12/45/movie-918655_1280.jpg) center 0px;
+}
+header h1 {
+    color: paleturquoise;
+    font-size: 8em;
+    text-shadow: #000 0px 0px 1px;
+    font-family: Verdana,sans-serif;
+    text-align: center;
+    margin: 0;
+}
+header h2 {
+    color:brown;
+    font-size: 3em;
+    text-shadow: #000 0px 0px 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: lowercase;
+    text-align: center;
+    margin: -0.4em 0 0 1.0em;
+}
+
+nav {
+    font-size: 2.5em;
+    text-shadow: #000 0px 0px 1px;
+    padding: 1.0em 0em 0.5em;
+    margin: 1.0em 0 0 ;
+    text-align: center
+}
+nav li {
+    display: inline-block;
+    margin: 0;
+}
+nav li a, nav li a:visited {
+    color:red;
+    padding:0;
+    text-decoration: none
+}
+nav li a:hover {
+    color:red;
+}
+
+section#sidebar {
+    width: 238px;
+    float: left;
+    background-color: wheat;
+    margin: 0;
+    padding: 0;
+    border-right:black solid;
+   }
+   section #main {
+    color: brown;
+    margin: 0 0 2.0em;
+    padding: 0em;
+    display: inline-block;
+    text-align: left;
+   }
+   section div.panel{
+    color: brown;
+    float: left;
+    position: relative;
+    width: 250px;
+    margin: 0 0.5em 2.0em 0.5em;
+    padding: 1.0em;
+    background-color: lightgrey;
+    text-align: center;
+   }
+
+   footer {
+    background-color: lightgoldenrodyellow;
+    height: 25px;
+    font-size: 1.2em;
+    color: navy;
+    text-align: center;
+    padding: 0;
+}
+footer a, footer a:visited {
+    color:navy;
+    text-decoration: none;
+}
+footer a:hover {
+    color:navy;
+    text-decoration: underline;
+}
